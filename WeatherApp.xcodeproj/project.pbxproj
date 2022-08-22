@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86009CA728B3982100A93514 /* currentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86009CA628B3982100A93514 /* currentWeather.swift */; };
+		86009CA928B398D800A93514 /* WeatherIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86009CA828B398D800A93514 /* WeatherIconManager.swift */; };
+		86009CAB28B3B85D00A93514 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86009CAA28B3B85D00A93514 /* APIManager.swift */; };
+		86009CAD28B3BE1400A93514 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86009CAC28B3BE1400A93514 /* ErrorManager.swift */; };
 		86D8FD3C28B2B82700BEFB9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D8FD3B28B2B82700BEFB9F /* AppDelegate.swift */; };
 		86D8FD3E28B2B82700BEFB9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D8FD3D28B2B82700BEFB9F /* SceneDelegate.swift */; };
 		86D8FD4028B2B82700BEFB9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D8FD3F28B2B82700BEFB9F /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86009CA628B3982100A93514 /* currentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currentWeather.swift; sourceTree = "<group>"; };
+		86009CA828B398D800A93514 /* WeatherIconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherIconManager.swift; sourceTree = "<group>"; };
+		86009CAA28B3B85D00A93514 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		86009CAC28B3BE1400A93514 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
 		86D8FD3828B2B82700BEFB9F /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D8FD3B28B2B82700BEFB9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86D8FD3D28B2B82700BEFB9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86009CAE28B3BE1B00A93514 /* WeatherModel */ = {
+			isa = PBXGroup;
+			children = (
+				86009CA828B398D800A93514 /* WeatherIconManager.swift */,
+				86009CA628B3982100A93514 /* currentWeather.swift */,
+			);
+			path = WeatherModel;
+			sourceTree = "<group>";
+		};
 		86D8FD2F28B2B82700BEFB9F = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +73,9 @@
 		86D8FD3A28B2B82700BEFB9F /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				86009CAE28B3BE1B00A93514 /* WeatherModel */,
+				86009CAA28B3B85D00A93514 /* APIManager.swift */,
+				86009CAC28B3BE1400A93514 /* ErrorManager.swift */,
 				86D8FD3B28B2B82700BEFB9F /* AppDelegate.swift */,
 				86D8FD3D28B2B82700BEFB9F /* SceneDelegate.swift */,
 				86D8FD3F28B2B82700BEFB9F /* ViewController.swift */,
@@ -138,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86009CAB28B3B85D00A93514 /* APIManager.swift in Sources */,
 				86D8FD4028B2B82700BEFB9F /* ViewController.swift in Sources */,
+				86009CAD28B3BE1400A93514 /* ErrorManager.swift in Sources */,
 				86D8FD3C28B2B82700BEFB9F /* AppDelegate.swift in Sources */,
+				86009CA928B398D800A93514 /* WeatherIconManager.swift in Sources */,
+				86009CA728B3982100A93514 /* currentWeather.swift in Sources */,
 				86D8FD3E28B2B82700BEFB9F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +317,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +346,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
