@@ -11,6 +11,7 @@
 		86009CA928B398D800A93514 /* WeatherIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86009CA828B398D800A93514 /* WeatherIconManager.swift */; };
 		86009CAB28B3B85D00A93514 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86009CAA28B3B85D00A93514 /* APIManager.swift */; };
 		86009CAD28B3BE1400A93514 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86009CAC28B3BE1400A93514 /* ErrorManager.swift */; };
+		868A962528B4F778009D0C22 /* APIWeathermanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868A962428B4F778009D0C22 /* APIWeathermanager.swift */; };
 		86D8FD3C28B2B82700BEFB9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D8FD3B28B2B82700BEFB9F /* AppDelegate.swift */; };
 		86D8FD3E28B2B82700BEFB9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D8FD3D28B2B82700BEFB9F /* SceneDelegate.swift */; };
 		86D8FD4028B2B82700BEFB9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D8FD3F28B2B82700BEFB9F /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		86009CA828B398D800A93514 /* WeatherIconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherIconManager.swift; sourceTree = "<group>"; };
 		86009CAA28B3B85D00A93514 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		86009CAC28B3BE1400A93514 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		868A962428B4F778009D0C22 /* APIWeathermanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIWeathermanager.swift; sourceTree = "<group>"; };
 		86D8FD3828B2B82700BEFB9F /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D8FD3B28B2B82700BEFB9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86D8FD3D28B2B82700BEFB9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				86009CAA28B3B85D00A93514 /* APIManager.swift */,
 				86009CAC28B3BE1400A93514 /* ErrorManager.swift */,
 				86D8FD3B28B2B82700BEFB9F /* AppDelegate.swift */,
+				868A962428B4F778009D0C22 /* APIWeathermanager.swift */,
 				86D8FD3D28B2B82700BEFB9F /* SceneDelegate.swift */,
 				86D8FD3F28B2B82700BEFB9F /* ViewController.swift */,
 				86D8FD4128B2B82700BEFB9F /* Main.storyboard */,
@@ -165,6 +168,7 @@
 				86009CA928B398D800A93514 /* WeatherIconManager.swift in Sources */,
 				86009CA728B3982100A93514 /* currentWeather.swift in Sources */,
 				86D8FD3E28B2B82700BEFB9F /* SceneDelegate.swift in Sources */,
+				868A962528B4F778009D0C22 /* APIWeathermanager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +318,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WeatherApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -343,6 +348,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WeatherApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
